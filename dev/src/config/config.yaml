@@ -1,0 +1,9 @@
+datasets:
+  root_folder: "/mnt/d/desktop/drone-mapping/data/new_tiling"
+  name_tile_folder: "tiles"
+  name_metadata_folder: "tiles_metadata"
+  name_bitmap_folder: "bitmap"
+  name_labels_folder: "labels"
+  name_labels_segmentation: "labels_segmentation"
+  grid_tiles_json: "/mnt/d/desktop/drone-mapping/code/tiles.json"
+
