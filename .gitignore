@@ -11,5 +11,7 @@ newdataset_overlap/
 old_notebook/
 dev/big-tiles/ 
 cog2tiles/
+tiles_map.html/
+boundary.gejson
 # Virtual environments
 .venv
