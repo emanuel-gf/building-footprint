@@ -5,6 +5,11 @@ build/
 dist/
 wheels/
 *.egg-info
+dataset_jpg/
+dataset_overlap/
+newdataset_overlap/
+old_notebook/
+big-tiles/ 
 
 # Virtual environments
 .venv

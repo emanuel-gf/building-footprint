@@ -8,10 +8,32 @@ def load_config(config_path="cfg/config.yaml"):
         config = yaml.safe_load(file)
     return config
 
+
 def load_json(path_name):
     with open(path_name, 'r') as f:
         return json.load(f)
+
+
+def create_list_files(folder, glob=None):
+    """
+    args:
+        folder: Path
+            Full-path of the folder holding the files to be listed
+        glob: list of str
+            Which patterns to glob (e.g., ["*.jpg", "*.shp", "*.txt"])
+    """
+    if not glob:
+        glob = ["*.tif", "*.jpg", "*.png", "*.txt", "*.shp"]
+    else:
+        if not isinstance(glob, list):
+            glob = [glob] 
     
+    folder_path = Path(folder)
+    files = [f for pattern in glob for f in folder_path.glob(pattern)]
+    
+    return files
+
+
 def compose_zip_folder(list_folder1, list_folder2):
     """
     Compose two list of files into a matching zip tuple.
