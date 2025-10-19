@@ -9,7 +9,7 @@ dataset_jpg/
 dataset_overlap/
 newdataset_overlap/
 old_notebook/
-big-tiles/ 
-
+dev/big-tiles/ 
+cog2tiles/
 # Virtual environments
 .venv
