@@ -1,6 +1,6 @@
 from pathlib import Path
 import shutil
-from sklearn.preprocessing import train_test_split 
+from sklearn.model_selection import train_test_split 
 
 
 def create_yolo_tree_structure(list_imgs,
