@@ -1,0 +1,6 @@
+path: /home/krschap/Jupyter/manu/drone-imagery/building-footprint/dev/datasets/YOLO
+train: images/train
+val: images/val
+
+names:
+  0: building

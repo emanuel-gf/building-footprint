@@ -68,6 +68,11 @@ The given notebook also set up the dataset into the yolo format.
 │           └── train
 ```
 
+4 . Training the model
+
+The file `dev/trainingyolo.ipynb` contains the training experimental part. Whereas the `config.yaml` contains the Yolo configuration.
+The data for the training is inside the `dev/data/zip`folder. 
+
 
 
 
