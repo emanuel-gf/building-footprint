@@ -1,9 +1,9 @@
 datasets:
-  root_folder: "/mnt/d/desktop/drone-mapping/data/new_tiling"
+  root_folder: "/home/camarada/Documents/CDE/3-semester/DeepLearning/building-footprint/data/improved_dataset"
   name_tile_folder: "tiles"
   name_metadata_folder: "tiles_metadata"
   name_bitmap_folder: "bitmap"
   name_labels_folder: "labels"
   name_labels_segmentation: "labels_segmentation"
-  grid_tiles_json: "/mnt/d/desktop/drone-mapping/code/tiles.json"
-
+  grid_tiles_json: "/home/camarada/Documents/CDE/3-semester/DeepLearning/building-footprint/data/tiles.json"
+  building_shp: "/home/camarada/Documents/CDE/3-semester/DeepLearning/building-footprint/data/shp"

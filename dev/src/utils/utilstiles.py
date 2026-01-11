@@ -6,6 +6,15 @@ import numpy as np
 import json
 
 def find_tile_per_x_y_z(x:int,y:int,z:int):
+    """
+    Find tile path name given x,y,z tile indices
+    Args:
+        x (int): x tile index
+        y (int): y tile index
+        z (int): z tile index
+    Returns:
+        str: tile path name
+    """
     path = "tile-"+str(x)+"-"+str(y)+"-"+str(z)+".tif"
     return path
 
@@ -23,7 +32,7 @@ def map_path_to_tile_info(img_path):
     return int(x), int(y), int(z) 
 
 
-def create_metadata_patches(gdf, list_files,output_dir):
+def create_metadata_patches(gdf, list_files, output_dir):
     """
     Create metadata in json for each tile. 
     Follow the same tile name structure to store it.

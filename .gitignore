@@ -16,3 +16,14 @@ boundary.gejson
 
 # Virtual environments
 .venv
+
+##image training
+*.tif
+*.png
+dataset/improved_dataset/
+dataset/new_tiling/
+dataset/shp/
+*.xml
+*.ecw
+*.dbf
+*.shx

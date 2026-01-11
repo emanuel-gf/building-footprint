@@ -4,7 +4,7 @@ import numpy as np
 import os
 from pathlib import Path
 import matplotlib.patches as patches
-from labelling import read_classication_label, read_segmentation_label
+from src.utils.labelling import read_classication_label, read_segmentation_label
 
 def print_img(path, dir="/mnt/d/desktop/drone-mapping/code/dev/newdataset_overlap/patches"):
         
