@@ -20,7 +20,7 @@ def plot_images(image_paths,n=None, cols=5, figsize=(15, 5), titles=None):
     Plots n images from a list of image paths using matplotlib.
 
     Parameters:
-        image_paths (list): List of image file paths.
+        image_paths (list): List of image file paths. Image are binary bitmaps.
         n (int): Number of images to display. Default is 5.
         cols (int): Number of columns in the grid. Default is 5.
         figsize (tuple): Size of the entire figure. Default is (15, 5).

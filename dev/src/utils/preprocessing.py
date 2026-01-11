@@ -1,7 +1,7 @@
 from pathlib import Path
 import shutil
 from sklearn.model_selection import train_test_split 
-
+import os 
 
 def create_yolo_tree_structure(list_imgs,
                                name_folder_label,
